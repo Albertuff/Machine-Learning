@@ -27,7 +27,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y,train_size=0.80,random_s
 
 # Paso 2: Entrenar el modelo K_vecinos
 
-K_vecinos=KNeighborsClassifier(n_neighbors=3,n_jobs=-1).fit(X_train,Y_train)
+K_vecinos=KNeighborsClassifier(n_neighbors=10,n_jobs=-1).fit(X_train,Y_train)
 
 # Paso 3: Hacer las predicciones 
 
