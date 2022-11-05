@@ -36,6 +36,6 @@ predicciones=K_vecinos.predict(X_test)
 # Paso 4; Evaluar el desempeño predictivo del modelo
 # Necesitamos definir una metrica, por ahora sera la exactitud o accuracy
 
-print(metrics.accuracy_score(Y_test,predicciones))
+print(f" Presición de predicción de : {metrics.accuracy_score(Y_test,predicciones)*100:.4f}%")
 plot_confusion_matrix(K_vecinos,X_test,Y_test)
 plt.show()
