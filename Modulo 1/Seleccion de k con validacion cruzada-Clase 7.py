@@ -26,7 +26,6 @@ datos=pd.read_csv("https://raw.githubusercontent.com/Albertuff/Machine-Learning/
 X=datos[["glucose","insulin","sspg"]] # Atributos
 Y=datos["class"]                      # Respuesta
 
-# Vamos a dividir al conjunto de datos en 3 partes: Entrenamiento, Validación y Prueba
 
 #Primera division: Entrenamiento y Prueba
 
