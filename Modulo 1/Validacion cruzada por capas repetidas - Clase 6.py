@@ -24,7 +24,7 @@ Y=datos["class"]                      # Respuesta
 
 # Definir el modelo K_vecinos
 
-K_vecinos=KNeighborsClassifier(n_neighbors=10,n_jobs=-1).fit(X,Y)
+K_vecinos=KNeighborsClassifier(n_neighbors=7,n_jobs=-1).fit(X,Y)
 
 # Medir el desempeño del modelo con validacion cruzada por capas/k-iterada/k-folds  repetidas
 # Definir el tipo de validacion

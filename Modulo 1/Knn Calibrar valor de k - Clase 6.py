@@ -32,7 +32,7 @@ X_train, X_val, Y_train,Y_val=train_test_split(X_train_val,Y_train_val,train_siz
 
 # Definir el modelo K_vecinos
 
-K_vecinos=KNeighborsClassifier(n_neighbors=7,n_jobs=-1).fit(X_train,Y_train)
+K_vecinos=KNeighborsClassifier(n_neighbors=3,n_jobs=-1).fit(X_train,Y_train)
 predicciones=K_vecinos.predict(X_val)
 
 # Medir el desempeño del modelo en el conjunto de validacion 
