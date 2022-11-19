@@ -1,3 +1,4 @@
+#Lo que se sugiere cuando se tienen datos desbalanceados es cambiar la metrica de desempeño.
 #
 # Deteccion de clientes que caen en impago a travez de la sensibilidad: Proporcion de casos reales positivos que son predichos positivos por el modelo
 
